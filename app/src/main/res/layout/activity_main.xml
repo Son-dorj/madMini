@@ -38,5 +38,26 @@
         android:onClick="clickHistory"
         android:text="Scan History" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sonam"
+        android:gravity="right"
+        android:textSize="15dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="#dddddd"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:background="#dddddd"
+        android:gravity="right"
+        android:text="@string/sunil"
+        android:textSize="15dp" />
 
 </LinearLayout>
