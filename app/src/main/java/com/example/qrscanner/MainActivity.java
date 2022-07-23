@@ -71,7 +71,7 @@ public class MainActivity extends Activity implements ZXingScannerView.ResultHan
 
     @Override
     public void handleResult(Result result) {
-        //menampilkan hasil scanning :D
+
         DBHelper db = new DBHelper(this);
 
         Log.w("handleResult", result.getText());
@@ -90,8 +90,7 @@ public class MainActivity extends Activity implements ZXingScannerView.ResultHan
         alertDialog.show();
         setContentView(R.layout.activity_main);
 
-        //lanjutkan scanning QR Code:
-    //    mScannerView.resumeCameraPreview(this);
+
     }
 
     @Override
